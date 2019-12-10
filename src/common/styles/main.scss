@@ -1,0 +1,114 @@
+@import "basic";
+@import "header";
+@import "sidebar";
+@import "footer";
+@import "progress";
+@import "cards";
+@import "themes/fgk";
+
+.collapsed {
+  .collapse-icon {
+    transform: rotate(-180deg);
+  }
+}
+
+.border {
+  &-top {
+    border-top: 1px solid #color-brand-accent-grey-3;
+  }
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  height: 60px;
+
+  &:hover {
+    .dropdown-body {
+      display: flex;
+    }
+  }
+
+  &-arrow {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-body {
+    padding: $main-padding 0;
+    display: none;
+    background: $color-white;
+    box-shadow: 0 2px 12px 2px #d0d7dd;
+    position: absolute;
+    right: 4px;
+    top: 60px;
+    min-width: 220px;
+    border-radius: $border-radius;
+  }
+
+  &-item {
+    a {
+      padding: $main-padding 0;
+      color: $color-brand-accent-grey-light-3;
+      font-size: $fs-14;
+      text-decoration: none;
+      line-height: 1em;
+      max-width: 240px;
+      white-space: normal;
+      display: block;
+
+      i.fa {
+        display: inline-block;
+        text-align: center;
+        min-width: 14px;
+      }
+    }
+  }
+}
+
+.sidebar {
+  left: 0;
+}
+
+.page-content-wrapper {
+  padding-top: calc(#{$main-padding} * 8);
+  padding-left: calc((#{$sidebar-width}) + (#{$main-padding-high * 2}));
+  width: calc(100% - (#{$main-padding} * 4));
+}
+
+@media screen and (max-width: 1024px) {
+  .page-content-wrapper {
+    padding-left: calc((#{$sidebar-width}) + (#{$main-padding-high}));
+    width: calc(100% - (#{$main-padding} * 2));
+  }
+
+  .cards-wrapper {
+    .card-block {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-body {
+    left: 100%;
+    right: auto;
+    transform: translateX(calc(-100% + 43px));
+  }
+
+  .sidebar {
+    position: fixed;
+    left: ($sidebar-width * -1);
+
+    &-fixed {
+      left: 0;
+    }
+  }
+
+  .page-content-wrapper {
+    padding-left: $main-padding-high;
+  }
+}

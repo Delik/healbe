@@ -1,0 +1,35 @@
+footer {
+  margin: $main-padding-high 0;
+  padding-top: $main-padding-high;
+  border-top: 1px solid $color-brand-accent-grey-light-4;
+  color: $color-brand-accent-grey-light-2;
+
+  .footer-content {
+    &-address {
+      padding-left: $main-padding * 3;
+      border-left: 1px dotted $color-brand-accent-grey-light-4;
+    }
+    &-contacts {
+      margin-right: ($main-padding * 4);
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    .footer-content {
+      flex-wrap: wrap;
+
+      &-address,
+      &-contacts {
+        min-wdith: 150px;
+      }
+
+      &-address {
+        border-left: 0;
+        margin-top: $main-padding-high;
+        padding-left: 0;
+      }
+    }
+  }
+}
