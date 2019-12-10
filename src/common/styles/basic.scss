@@ -1,0 +1,155 @@
+@import 'themes/fgk';
+
+//sizes
+  //basic sizes
+  $main-padding: 10px;
+  $main-padding-high: 20px;
+  $main-padding-min: 5px;
+  $border-radius: 4px;
+  $border-radius-min: 2px;
+
+* {
+  outline: 0 none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $color-black;
+  font-size: 16px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: $transition-default;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0;
+  }
+}
+
+//font-sizes
+$fs-10: 10px;
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+
+.fs-10 {
+  font-size: $fs-10;
+}
+.fs-12 {
+  font-size: $fs-12;
+}
+.fs-14 {
+  font-size: $fs-14;
+}
+.fs-16 {
+  font-size: $fs-16;
+}
+.fs-18 {
+  font-size: $fs-18;
+}
+//end
+
+//spacers
+$spacer: 10px;
+$spacer-x: $spacer;
+$spacer-y: $spacer;
+
+$spacers: ();
+
+@for $i from 0 through 6 {
+  $spacers: map-merge($spacers, (
+          $i: (
+                  x: $spacer-x * $i,
+                  y: $spacer-y * $i
+          )
+  ))
+}
+
+@each $prop, $abbrev in (margin: m, padding: p) {
+  @each $size, $lengths in $spacers {
+    $length-x:   map-get($lengths, x);
+    $length-y:   map-get($lengths, y);
+
+    .#{$abbrev}-a-#{$size} { #{$prop}:        $length-y $length-x !important; }
+    .#{$abbrev}-t-#{$size} { #{$prop}-top:    $length-y !important; }
+    .#{$abbrev}-r-#{$size} { #{$prop}-right:  $length-x !important; }
+    .#{$abbrev}-b-#{$size} { #{$prop}-bottom: $length-y !important; }
+    .#{$abbrev}-l-#{$size} { #{$prop}-left:   $length-x !important; }
+
+    .#{$abbrev}-x-#{$size} {
+      #{$prop}-right:  $length-x !important;
+      #{$prop}-left:   $length-x !important;
+    }
+    .#{$abbrev}-y-#{$size} {
+      #{$prop}-top:    $length-y !important;
+      #{$prop}-bottom: $length-y !important;
+    }
+  }
+}
+//end
+
+.full-width {
+  width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+//flex classes
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  &-h-center {
+    justify-content: center;
+  }
+
+  &-center {
+    align-items: center
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-grow {
+    flex-grow: 1;
+  }
+
+  &-nogrow {
+    flex-grow: 0 !important;
+  }
+
+  &-start {
+    justify-content: flex-start;
+  }
+
+  &-end {
+    justify-content: flex-end;
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+}

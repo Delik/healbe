@@ -1,0 +1,188 @@
+//colors
+$color-black: #000;
+$color-white: #fff;
+$color-border-grey: #ccc;
+
+$color-brand-red: #e51e21;
+$color-black-light-2: lighten($color-black, 20%);
+$color-black-light-3: lighten($color-black, 40%);
+$color-black-light-4: lighten($color-black, 60%);
+$color-black-light-5: lighten($color-black, 80%);
+
+$color-brand-accent-grey: rgba(51, 63, 72, 1);
+$color-brand-accent-grey-light-2: lighten(rgba(51, 63, 72, 1), 20%);
+$color-brand-accent-grey-light-3: lighten(rgba(51, 63, 72, 1), 40%);
+$color-brand-accent-grey-light-4: lighten(rgba(51, 63, 72, 1), 60%);
+$color-brand-accent-grey-light-5: lighten(rgba(51, 63, 72, 1), 80%);
+
+$color-brand-accent-blue: rgba(0, 40, 85, 1);
+$color-brand-accent-blue-light-2: lighten(rgba(0, 40, 85, 1), 20%);
+$color-brand-accent-blue-light-3: lighten(rgba(0, 40, 85, 1), 40%);
+$color-brand-accent-blue-light-4: lighten(rgba(0, 40, 85, 1), 60%);
+$color-brand-accent-blue-light-5: lighten(rgba(0, 40, 85, 1), 80%);
+// TODO @uIsk - add 2 accent colors from brandbook [sea && sea-grey];
+
+@mixin text-grey {
+  color: $color-brand-accent-grey-light-3;
+}
+
+.text-grey {
+  @include text-grey;
+}
+
+.sorry-just-kidding { //TODO @uIsk remove
+  &.fa {
+    color: $color-brand-red;
+    opacity: .6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+//progress
+$bar-bg: $color-brand-accent-blue-light-4;
+
+.color-brand-red {
+  color: $color-brand-red;
+}
+
+//transitions and animations
+$transition-default: .3s;
+
+//elements sizes
+$header-height: 60px;
+$sidebar-width: 240px;
+$card-width-default: calc(50% - 10px);
+$user-avatar-size: 38px;
+
+//mixins
+@mixin cards-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin pseudo {
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+//end
+
+.header-contacts {
+  color: $color-black-light-4;
+  min-height: $header-height;
+
+  i.fa-phone {
+    text-align: center;
+    color: $color-brand-red;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    border-radius: 50%;
+    border: 1px solid $color-brand-red;
+  }
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  color: $color-black-light-4;
+
+  a {
+    color: $color-black-light-4;
+    position: relative;
+
+    &:hover {
+      color: $color-brand-accent-blue;
+
+      &::before {
+        background: $color-brand-accent-blue;
+      }
+    }
+
+    &::before {
+      @include pseudo;
+      transition: $transition-default;
+      height: 1px;
+      width: 100%;
+      background: $color-brand-accent-grey-light-4;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+.page-content {
+  &-header {
+    position: relative;
+  }
+}
+
+a,
+a:hover {
+  color: $color-brand-accent-blue;
+
+  &.underline {
+    text-decoration: underline;
+  }
+}
+
+a.btn:hover {
+  background-color: lighten($color-brand-red, 10%);
+}
+
+.btn {
+  padding: 3px 10px 5px;
+  font-size: 14px;
+  color: $color-white;
+  background: $color-brand-red;
+  border-radius: $border-radius;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.page-content-body {
+  min-height: calc(100vh - 200px);
+}
+
+.brand-design-element-line {
+  background: $color-brand-accent-grey-light-4;
+  transform: skew(-30deg);
+  width: 20px;
+  min-height: 50px;
+  margin-left: 11px;
+  margin-right: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  opacity: .5;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-brand-red;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-brand-red;
+}
+
+@media screen and(max-width: 900px) {
+  .brand-design-element-line {
+    margin-right: 30px;
+    max-height: 52px;
+  }
+
+  .page-content-header {
+    margin-bottom: 40px;
+  }
+}

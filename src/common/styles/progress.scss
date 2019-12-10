@@ -1,0 +1,94 @@
+
+
+@mixin browser_prefix($property, $value) {
+  #{$property}: #{$value};
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  @include browser_prefix('animation', $str);
+}
+
+.progress-bar {
+  opacity: .5;
+  width: 100%;
+  background: #ccc;
+  position: fixed;
+  top:60px;
+  left: 0;
+
+  .progress1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 4px;
+  }
+
+  .progress-bar-bar {
+    display: block;
+    float: left;
+    width: 0;
+    height: 100%;
+    transition: width 0.8s ease-in-out;
+    background-color: $bar-bg !important;
+  }
+
+  .progress-bar-stripes,
+  .progress-bar-active,
+  .progress-bar-active-right {
+    background-image: linear-gradient(
+                    -30deg,
+                    rgba(255, 255, 255, .25) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .25) 50%,
+                    rgba(255, 255, 255, .25) 75%,
+                    transparent 75%,
+                    transparent
+    );
+    background-size: 35px 35px;
+  }
+
+  .progress-bar-active {
+    @include animation('progress-barActive 2s linear infinite');
+  }
+
+  .progress-bar-active-right {
+    @include animation('progress-barActiveRight 2s linear infinite');
+  }
+
+  @include keyframes('progress-barActive') {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 35px 35px;
+    }
+  }
+
+  @include keyframes('progress-barActiveRight') {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -35px -35px;
+    }
+  }
+}

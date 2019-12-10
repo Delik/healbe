@@ -1,0 +1,103 @@
+.cards-wrapper {
+  @include cards-wrapper;
+
+  .card-block {
+    min-height: 190px;
+    flex-basis: $card-width-default;
+    padding: $main-padding-high;
+    margin-bottom: $main-padding-high;
+    border-radius: $border-radius;
+    font-size: $fs-14;
+    position: relative;
+
+    &-hover {
+      &:hover {
+        box-shadow: 0 2px 12px 2px $color-brand-accent-grey-light-4;
+      }
+    }
+
+    &-bordered {
+      border: 1px $color-brand-accent-grey-light-4 solid;
+    }
+
+    &:nth-child(odd) {
+      margin-right: $main-padding-high;
+    }
+
+    &-status {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      color: $color-white;
+      right: $main-padding-high * 1.2;
+      transform: skew(-30deg);
+
+      i {
+        transform: skew(30deg);
+        color: $color-white;
+        line-height: 40px;
+        padding-left: 12px;
+      }
+    }
+
+    &-success {
+      .card-block-status {
+        display: block;
+        background: $color-brand-accent-grey-light-4;
+      }
+
+      .card-block-header {
+        padding-right: ($main-padding * 5);
+      }
+
+      a:not(.btn) {
+        color: $color-brand-accent-blue;
+        &:hover {
+          color: $color-brand-accent-blue;
+        }
+      }
+    }
+
+    &-body {
+      margin: $main-padding-high 0;
+      min-height: ($main-padding * 7)
+    }
+
+    &-footer {
+      display: flex;
+      align-items: center;
+      width: calc(100% - (#{$main-padding-high} * 2));
+
+      .btn {
+        &:not(:last-child) {
+          margin-right: $main-padding-high;
+        }
+
+        &[disabled] {
+          i {
+            display: none;
+          }
+
+          background-color: $color-brand-accent-grey-light-4;
+          cursor: default;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cards-wrapper {
+    .card-block {
+      flex-basis: 100%;
+
+      &:nth-child(odd) {
+        margin-right: 0;
+      }
+    }
+  }
+}
