@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e4e575-13c9-4b0b-b9ef-3a33fc63f2fa" name="Default" comment="" />
+    <list default="true" id="d5e4e575-13c9-4b0b-b9ef-3a33fc63f2fa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/fgk/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/fgk/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/fgk/src/assets/img/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/fgk/assets/img/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/fgk/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/fgk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/fgk/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/fgk/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/img/logo-ffc-img.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/fgk/assets/img/logo-ffc-img.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/jquery-ui-1.10.1.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/jquery-ui2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/assets/vendor/__jquery-ui/jquery-ui_back.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/scripts/gulp/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/scripts/gulp/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crossdomain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/img/logo-ffc-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/jquery-ui-1.10.1.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/jquery-ui2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/__jquery-ui/jquery-ui_back.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/assets/vendor/ui/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robots.txt" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,8 +79,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apps/fgk/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/scripts/gulp/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/apps/fgk/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="270" column="6" selection-start-line="270" selection-start-column="6" selection-end-line="270" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exte</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/apps/fgk/index.html" />
+        <option value="$PROJECT_DIR$/src/common/scripts/gulp/scripts.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -1061,7 +1172,84 @@
             <path>
               <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
               <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fgk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fgk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1076,6 +1264,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lisicin\Desktop\my-pf\fgk\src\apps\fgk\assets\img" />
+      <recent name="C:\Users\Lisicin\Desktop\my-pf\fgk\src\apps\fgk" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1099,7 +1293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576009217644</updated>
-      <workItem from="1576009233874" duration="5077000" />
+      <workItem from="1576009233874" duration="10191000" />
     </task>
     <task id="LOCAL-00001" summary="add fgk app">
       <created>1576016222271</created>
@@ -1126,22 +1320,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5077000" />
+    <option name="totallyTimeSpent" value="10191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295099" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.36600626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1161,5 +1356,28 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add fgk app" />
     <option name="LAST_COMMIT_MESSAGE" value="add fgk app" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/apps/fgk/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apps/fgk/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="270" column="6" selection-start-line="270" selection-start-column="6" selection-end-line="270" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/scripts/gulp/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

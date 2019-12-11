@@ -5,38 +5,44 @@ module.exports = function (name) {
         sourcemaps = require('gulp-sourcemaps');
 
     gulp.task('scss', () => gulp
-        .src('src/styles.scss')
+        .src('./styles.scss')
         .pipe(sourcemaps.init())
         .pipe(scss())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('../../dist/' + name))
+        .pipe(gulp.dest('../../../dist/' + name))
     );
 
     gulp.task('html', () => gulp
-        .src('src/**/*.html')
-        .pipe(gulp.dest('../../dist/' + name))
+        .src('./**/*.html')
+        .pipe(gulp.dest('../../../dist/' + name))
     );
 
+    gulp.task('js', () => gulp
+        .src(`./../../common/assets/vendor/**/*.js`)
+        .pipe(gulp.dest(`../../../dist/${name}/assets/vendor`))
+    );
+
+
     gulp.task('assets:common', () => gulp
-        .src('../../common/assets/**/*')
-        .pipe(gulp.dest(`../../dist/${name}/assets`))
+        .src('./../common/assets/**/*')
+        .pipe(gulp.dest(`../../../dist/${name}/assets`))
     );
 
     gulp.task('assets:extended', () => gulp
-        .src('src/assets/**/*')
-        .pipe(gulp.dest(`../../dist/${name}/assets`))
+        .src('./assets/**/*')
+        .pipe(gulp.dest(`../../../dist/${name}/assets`))
     );
 
     gulp.task('assets', gulp.parallel('assets:common', 'assets:extended'));
 
-    gulp.task('build', gulp.parallel('scss', 'html', 'assets'));
+    gulp.task('build', gulp.parallel('scss', 'html', 'assets', 'js'));
 
     gulp.task('watch', () => gulp
-        .watch(['../../common/**/*', 'src/**/*'], gulp.parallel('scss', 'html', 'assets'))
+        .watch(['../common/**/*', './**/*'], gulp.parallel('scss', 'html', 'assets', 'js'))
     );
 
     gulp.task('serve', gulp.parallel('watch', () => gulp
-            .src('../../dist/' + name)
+            .src('../../../dist/' + name)
             .pipe(server({
                 livereload: false,
                 directoryListing: false,
@@ -46,5 +52,5 @@ module.exports = function (name) {
         )
     );
 
-    gulp.task('default', gulp.parallel('scss', 'html', 'assets', 'serve'));
+    gulp.task('default', gulp.parallel('scss', 'html', 'assets', 'js', 'serve'));
 };
