@@ -37,7 +37,7 @@ gulp.task('server', function() {
             livereload: true,
             directoryListing: false,
             open: true,
-            defaultFile: '/apps/fgk/index.html'
+            defaultFile: '/apps/healbe/index.html'
         }));
 });
 
@@ -59,8 +59,8 @@ gulp.task( 'd', function () { //deploy
     ];
 
     return gulp.src( globs )
-        .pipe( conn.newer( '/fgk.webde5ign.ru/dist/' ) ) // only upload newer files
-        .pipe( conn.dest( '/fgk.webde5ign.ru/dist/' ) );
+        .pipe( conn.newer( '/healbe.webde5ign.ru/dist/' ) ) // only upload newer files
+        .pipe( conn.dest( '/healbe.webde5ign.ru/dist/' ) );
 
 } );
 

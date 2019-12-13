@@ -22,6 +22,10 @@ module.exports = function (name) {
         .pipe(gulp.dest(`../../../dist/${name}/assets/vendor`))
     );
 
+    gulp.task('fonts', () => gulp
+        .src(`./../../common/assets/vendor/fonts/**/*.*`)
+        .pipe(gulp.dest(`../../../dist/${name}/assets/vendor/fonts`))
+    );
 
     gulp.task('assets:common', () => gulp
         .src('./../common/assets/**/*')
@@ -35,10 +39,10 @@ module.exports = function (name) {
 
     gulp.task('assets', gulp.parallel('assets:common', 'assets:extended'));
 
-    gulp.task('build', gulp.parallel('scss', 'html', 'assets', 'js'));
+    gulp.task('build', gulp.parallel('scss', 'html', 'assets', 'js', 'fonts'));
 
     gulp.task('watch', () => gulp
-        .watch(['../common/**/*', './**/*'], gulp.parallel('scss', 'html', 'assets', 'js'))
+        .watch(['../common/**/*', './**/*'], gulp.parallel('scss', 'html', 'assets', 'js', 'fonts'))
     );
 
     gulp.task('serve', gulp.parallel('watch', () => gulp
@@ -52,5 +56,5 @@ module.exports = function (name) {
         )
     );
 
-    gulp.task('default', gulp.parallel('scss', 'html', 'assets', 'js', 'serve'));
+    gulp.task('default', gulp.parallel('scss', 'html', 'assets', 'js', 'fonts', 'serve'));
 };

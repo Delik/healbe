@@ -1,0 +1,70 @@
+$card-box-shadow: 0px 0px 10px rgba(126, 55, 135, 0.19);
+$card-box-shadow-hover: 0px 0px 20px rgba(126, 55, 135, 0.39);
+$card-border-radius: 40px;
+$card-icon-size-w: 100px;
+$card-icon-size-h: 80px;
+$card-padding: 40px 35px;
+$card-transition: .6s;
+
+.promo-cards {
+  margin: 65px 0 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  &__card {
+    box-shadow: $card-box-shadow;
+    border-radius: $card-border-radius;
+    padding: $card-padding;
+    font-weight: 500;
+    width: 31.5%;
+    transition: $card-transition;
+
+    &:hover {
+      box-shadow: $card-box-shadow-hover;
+      cursor: pointer;
+
+      .promo-cards__icon {
+        filter: hue-rotate(20deg);
+      }
+    }
+  }
+
+  &__icon-container {
+    width: 100px;
+    height: 95px;
+    margin-bottom: 46px;
+    padding-left: 10px;
+  }
+
+  &__icon {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+
+    &-food {
+      background-image: url(/assets/img/icon-food.svg);
+    }
+
+    &-joga {
+      background-image: url(/assets/img/icon-joga.svg);
+    }
+
+    &-drink {
+      background-image: url(/assets/img/icon-drink.svg);
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  &__body {
+    margin-top: ($main-padding * 5);
+  }
+}
